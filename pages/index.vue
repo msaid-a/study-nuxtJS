@@ -66,23 +66,3 @@ export default {
   }  
 }
   </script>
-
-<style lang="scss" scoped>
-  /*
-   * Card Columns Masonry - Bootstrap 4
-   * https://codepen.io/JacobLett/pen/oZmWdd
-   */
-  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-  @media (min-width: 768px) {  
-    .card-columns {column-count: 3;}
-  }
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) { 
-   .card-columns {column-count: 3;}
-  }
-   
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {  
-     .card-columns {column-count: 3;} 
-  }
-  </style>
