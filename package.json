@@ -1,0 +1,31 @@
+{
+  "name": "study_nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "msaid-a <muhammad.arrafi@fast-8.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "compile:sass": "node-sass assets/scss/main.scss assets/css/style.css -w --output-style compressed"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.0.0",
+    "sass-loader": "10.1.1",
+    "swiper": "^6.5.7",
+    "vue-awesome-swiper": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
